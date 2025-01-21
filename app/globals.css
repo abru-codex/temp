@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global CSS */
+:root {
+  /* --main-color: #59d8fd;
+  --second-color: #12477a;
+  --third-color: #7D70F5;
+  --fourth-color: #59d7fd25 */
+  --main-color: #87dfd6;
+  --second-color: #086972;
+  --third-color: #7d70f5;
+  --fourth-color: #59d7fd25;
+}
+
+body {
+  background: #fefefe;
+  font-family: "Inter", sans-serif;
+  /* swiper config */
+  --swiper-pagination-color: var(--main-color);
+  --swiper-navigation-color: var(--main-color);
+}
+
+/* color */
+.text-mix {
+  color: var(--main-color);
+}
+
+.text-mix-2 {
+  color: var(--second-color);
+}
+
+/* background */
+.bg-mix {
+  background-color: var(--main-color);
+}
+
+.bg-mix-2 {
+  background-color: var(--second-color);
+}
+
+.bg-mix-3 {
+  background-color: var(--third-color);
+}
+
+.bg-mix-4 {
+  background-color: var(--fourth-color);
+}
+
+/* button */
+.btn-mix {
+  background-color: var(--main-color);
+  color: #ffffff;
+}
+/* swiper react */
+
+.gallery .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery .swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery .swiper-slide {
+  /* background-size: cover;
+  background-position: center; */
+  width: 100%;
+  height: 100%;
+}
+
+.gallery .mySwiper2 {
+  height: 300px;
+}
+
+.gallery .mySwiper {
+  width: 100%;
+  height: 55px;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery .mySwiper .swiper-slide {
+  height: 100%;
+  /* opacity: 0.4; */
+}
+
+.gallery .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.gallery .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#imageMagnify {
+  width: 500;
+  height: 500;
+}

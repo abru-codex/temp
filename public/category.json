@@ -1,0 +1,48 @@
+[
+  {
+    "name": "Engine",
+    "types": [
+      {
+        "name": "Gasoline",
+        "types": ["India", "pakistan", "BD"]
+      },
+      "Diesel",
+      "Electric",
+      "Hybrid",
+      "Natural Gas"
+    ]
+  },
+  {
+    "name": "Battery",
+    "types": [
+      "Lead Acid",
+      "Lithium-ion",
+      "Nickel Cadmium",
+      "Nickel Metal Hydride",
+      "Solid-State"
+    ]
+  },
+  {
+    "name": "Tire",
+    "types": ["All-Season", "Winter", "Summer", "Performance", "Off-Road"]
+  },
+  {
+    "name": "Computer",
+    "types": [
+      "Laptop",
+      "Desktop",
+      "Tablet",
+      "Server",
+      "Workstation",
+      "Chromebook"
+    ]
+  },
+  {
+    "name": "Sport",
+    "types": ["Football", "Basketball", "Soccer", "Tennis", "Baseball", "Golf"]
+  },
+  {
+    "name": "Music Genre",
+    "types": ["Rock", "Pop", "Hip Hop", "Country", "Jazz", "Electronic"]
+  }
+]
